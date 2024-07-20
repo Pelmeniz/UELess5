@@ -896,3 +896,32 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.07.20-05.53.46:142][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2024.07.20-05.53.46:211][  0]LogRenderer: Reallocating scene render targets to support 1132x552 Format 10 NumSamples 1 (Frame:3).
 [2024.07.20-05.53.46:315][  2]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.20-05.55.35:049][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.07.20-05.55.38:485][390]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.20-05.55.38:535][390]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.07.20-05.55.40:053][390]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.07.20-05.55.40:065][390]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.07.20-05.55.40:072][390]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.07.20-05.55.58:264][558]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Light
+[2024.07.20-05.55.58:271][558]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.07.20-05.56.07:531][646]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Light.BP_Light
+[2024.07.20-05.56.07:832][646]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2024.07.20-05.56.16:838][369]LogSlate: Took 0.006127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.07.20-05.56.34:693][222]BlueprintLog: New page: Compile BP_Light
+[2024.07.20-05.56.34:745][222]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2024.07.20-05.56.38:960][601]LogRenderer: Reallocating scene render targets to support 1144x900 Format 10 NumSamples 1 (Frame:2409).
+[2024.07.20-05.56.39:296][640]LogSlate: Window 'BP_Light' being destroyed
+[2024.07.20-05.57.28:698][ 94]LogSlate: Window 'Save Level As' being destroyed
+[2024.07.20-05.57.28:750][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../../Github/UELess5/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.07.20-05.57.28:783][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2024.07.20-05.57.28:795][ 94]LogSavePackage: Moving '../../../../../../Github/UELess5/Saved/MainLvlED30A5604158520BBEF445A5052F206C.tmp' to '../../../../../../Github/UELess5/Content/MainLvl.umap'
+[2024.07.20-05.57.28:802][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../../Github/UELess5/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2024.07.20-05.57.28:829][ 94]LogSavePackage: Moving '../../../../../../Github/UELess5/Saved/MainLvl_BuiltData170B1CEB4D92F47B2DF2FD8AB0D07EDC.tmp' to '../../../../../../Github/UELess5/Content/MainLvl_BuiltData.uasset'
+[2024.07.20-05.57.28:847][ 94]LogFileHelpers: Saving map 'MainLvl' took 0.135
+[2024.07.20-05.57.28:854][ 94]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.20-05.57.28:854][ 94]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLvl_BuiltData.MainLvl_BuiltData
+[2024.07.20-05.57.28:854][ 94]LogContentValidation: Display: Validating World /Game/MainLvl.MainLvl
+[2024.07.20-05.57.34:096][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Light" FILE="../../../../../../Github/UELess5/Content/BP_Light.uasset" SILENT=true
+[2024.07.20-05.57.34:103][605]LogSavePackage: Moving '../../../../../../Github/UELess5/Saved/BP_Light3A7B4DF248064BD50766CC8E9230DE04.tmp' to '../../../../../../Github/UELess5/Content/BP_Light.uasset'
+[2024.07.20-05.57.34:210][605]AssetCheck: New page: Asset Save: BP_Light
+[2024.07.20-05.57.34:211][605]LogContentValidation: Display: Validating Blueprint /Game/BP_Light.BP_Light
